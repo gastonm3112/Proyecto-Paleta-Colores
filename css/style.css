@@ -37,3 +37,30 @@ h1 {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
 }
+
+.footer__contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+  margin: 15px 0 0 0;
+  text-align: center;
+  position: absolute;
+  top: 90%;
+  left: 37%;
+  transform: translate(-20%, -50%);
+  -webkit-transform: translate(-20%, -50%);
+  -moz-transform: translate(-20%, -50%);
+  -ms-transform: translate(-20%, -50%);
+  -o-transform: translate(-20%, -50%);
+}
+
+.footer__contenedor p,
+i {
+  margin-right: 10px;
+}
+
+.footer__contenedor i {
+  font-size: 1.5em;
+  color: #000000;
+}
