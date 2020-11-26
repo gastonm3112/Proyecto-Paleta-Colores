@@ -19,10 +19,10 @@ mi perfil de [Linkedin](https://www.linkedin.com/in/gast%C3%B3n-martinez-a2189a1
 
 EN
 # Colour Palette project
-This project allows us to select a color and obtain it's HEX code.
+This project allows us to select a colour and obtain it's HEX code.
 
 ## How to use it
-Click on the input color, select your color, you will visualize the HEX code along with the selected color.
+Click on the input colour, select your colour, you will visualize the HEX code along with the selected colour.
 Then just copy it and use it wherever you want.
 
 ## Content
