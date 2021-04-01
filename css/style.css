@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
 }
 
@@ -13,29 +13,16 @@ h1 {
   text-transform: uppercase;
   font-size: 2.5em;
   text-align: center;
-  width: 6em;
-  height: 6em;
+  font-weight: bold;
+  width: 40%;
+  height: 8em;
+  margin: 1em 30%;
   border: 1px solid #000000;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 
-#color {
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
+.color_input_container {
+  text-align: center;
 }
 
 .footer__contenedor {
@@ -45,14 +32,6 @@ h1 {
   font-size: 1.3em;
   margin: 15px 0 0 0;
   text-align: center;
-  position: absolute;
-  top: 90%;
-  left: 37%;
-  transform: translate(-20%, -50%);
-  -webkit-transform: translate(-20%, -50%);
-  -moz-transform: translate(-20%, -50%);
-  -ms-transform: translate(-20%, -50%);
-  -o-transform: translate(-20%, -50%);
 }
 
 .footer__contenedor p,
@@ -63,4 +42,17 @@ i {
 .footer__contenedor i {
   font-size: 1.5em;
   color: #000000;
+}
+
+/* Mobile */
+@media (max-width: 769px) {
+  .visual {
+    width: 70%;
+    height: 5em;
+    margin: 1em 0 0 15%;
+  }
+
+  .color_input_container {
+    margin-top: 1em;
+  }
 }
