@@ -1,10 +1,11 @@
-document.getElementById('color').addEventListener('input', getColor);
+const color = document.getElementById('color');
+const visual = document.getElementById('visual');
 
-function getColor(){
-    let col = document.getElementById('color').value;
-    
+color.addEventListener('input', () => {
+    const colorValue = color.value;
 
-    document.getElementById('visual').style.background = col;
-    document.getElementById('visual').innerHTML = col;
+    visual.innerHTML = colorValue;
+    visual.style.background = colorValue;
+    visual.style.color = "#ffffff";
 
-}
+});
